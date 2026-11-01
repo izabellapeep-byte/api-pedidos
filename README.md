@@ -95,9 +95,8 @@ Capturas do Postman na pasta `evidencias/`:
 
 # Uso de IA
 
-<!-- EDITE ESTA SEÇÃO COM O QUE VOCÊ REALMENTE FEZ. Exemplo de estrutura: -->
-- **Utilizei IA?** Sim
-- **Para quais tarefas?** (ex.: Para me ajudar  ausar o github e instalar nodejs no laptop)
-- **Sugestão aceita:**nenhuma
-- **Sugestão modificada:** ---
-- **Sugestão rejeitada:** ---
+- **Utilizei IA?** Sim.
+- **Para quais tarefas?** Estrutura inicial do projeto (routes, controllers e services), validações e orientação para instalar o Node.js
+- **Sugestão aceita:** nenhuma até o momento.
+- **Sugestão modificada:** a IA sugeriu fazer os commits pelo terminal com Git. Como o Git não estava instalado e o prazo era curto, enviei os arquivos pelo upload do GitHub e fiz os demais commits editando arquivos pelo site.
+- **Sugestão rejeitada:** nenhuma até o momento.
