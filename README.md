@@ -3,7 +3,7 @@
 Projeto avaliativo — Tópicos Avançados em Sistemas de Informação II.
 API REST para gerenciar pedidos de uma pequena loja, com Node.js, Express e armazenamento em memória.
 
-**Aluno:** _SEU NOME_ — **RA:** _SEU RA_
+**Aluno:** Izabella Miranda — **RA:** 43741401
 
 ## Instalação e execução
 
@@ -107,8 +107,8 @@ Capturas do Postman na pasta `evidencias/`:
 ## Uso de IA
 
 <!-- EDITE ESTA SEÇÃO COM O QUE VOCÊ REALMENTE FEZ. Exemplo de estrutura: -->
-- **Utilizei IA?** Sim/Não.
-- **Para quais tarefas?** (ex.: estrutura inicial do projeto, testes, README)
-- **Sugestão aceita:** _descreva e justifique_
-- **Sugestão modificada:** _descreva o que mudou e por quê_
-- **Sugestão rejeitada:** _descreva e justifique_
+- **Utilizei IA?** Sim
+- **Para quais tarefas?** (ex.: Para me ajudar  ausar o github e instalar nodejs no laptop)
+- **Sugestão aceita:**nenhuma
+- **Sugestão modificada:** ---
+- **Sugestão rejeitada:** ---
