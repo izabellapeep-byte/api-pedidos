@@ -4,8 +4,8 @@ Aluno:Izabella Miranda — RA: 43741401
 
 ```bash
 npm install
-npm start        # sobe em http://localhost:3000 (PORT pode ser alterada via variável de ambiente)
-npm test         # roda os testes automatizados (Jest + Supertest)
+npm start        
+npm test        
 ```
 
 > Os dados ficam em memória: ao reiniciar o servidor, os pedidos são perdidos.
@@ -19,7 +19,6 @@ npm test         # roda os testes automatizados (Jest + Supertest)
 | GET    | `/pedidos/:id`          | 200     | 404 (inexistente)                       |
 | PATCH  | `/pedidos/:id/status`   | 200     | 400 (status/transição inválidos), 404   |
 
-### Exemplos
 
 **POST /pedidos**
 ```json
@@ -54,7 +53,6 @@ Resposta `201`:
 - Erro inesperado → `500` com mensagem genérica (detalhes só no log do servidor).
 - No PATCH, a existência do ID é verificada **antes** da validação do corpo (ID inexistente sempre dá 404).
 
-## Status e transições
 
 Status: `recebido`, `em_preparacao`, `enviado`, `entregue`, `cancelado`. Todo pedido nasce como `recebido`.
 
@@ -67,8 +65,6 @@ Status: `recebido`, `em_preparacao`, `enviado`, `entregue`, `cancelado`. Todo pe
 | `cancelado`      | — (final)                      |
 
 Qualquer transição fora da tabela (inclusive repetir o mesmo status) retorna `400`.
-
-## Arquitetura
 
 Arquitetura em camadas; cada camada tem uma única responsabilidade:
 
@@ -89,17 +85,15 @@ Fluxo: `request -> routes -> controller -> service -> (erro?) -> errorHandler ->
 O service lança `AppError` para erros esperados; qualquer outro erro vira `500`.
 `app.js` é separado de `server.js` para os testes importarem a aplicação sem abrir uma porta.
 
-## Testes
 
 - `tests/pedidos.service.test.js`: regras de negócio (validações, transições, IDs).
 - `tests/pedidos.api.test.js`: endpoints via Supertest (códigos HTTP e corpo das respostas).
 
-## Evidências
 
 Capturas do Postman na pasta `evidencias/`:
 `01-criacao.png`, `02-validacao.png`, `03-listagem.png`, `04-consulta-inexistente.png`, `05-atualizacao.png`.
 
-## Uso de IA
+# Uso de IA
 
 <!-- EDITE ESTA SEÇÃO COM O QUE VOCÊ REALMENTE FEZ. Exemplo de estrutura: -->
 - **Utilizei IA?** Sim
