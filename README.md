@@ -1,9 +1,4 @@
-# API de Gerenciamento de Pedidos
-
-Projeto avaliativo — Tópicos Avançados em Sistemas de Informação II.
-API REST para gerenciar pedidos de uma pequena loja, com Node.js, Express e armazenamento em memória.
-
-**Aluno:** Izabella Miranda — **RA:** 43741401
+Aluno:Izabella Miranda — RA: 43741401
 
 ## Instalação e execução
 
